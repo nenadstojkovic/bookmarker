@@ -1,7 +1,7 @@
 // Listen for form submit
 document.getElementById("myForm").addEventListener("submit", saveBookmark);
 
-// Save Bookmark
+// Save bookmark
 function saveBookmark(e) {
   // Get form values
   var siteName = document.getElementById("siteName").value;
@@ -97,7 +97,7 @@ function fetchBookmarks() {
   }
 }
 
-// Validate Form
+// Validate form
 function validateForm(siteName, siteUrl) {
   if (!siteName || !siteUrl) {
     alert("Please fill in the form");
